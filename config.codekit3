@@ -21,6 +21,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/Desktop HD.jpg" : {
+      "ft" : 16384,
+      "iS" : 1923958,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Desktop HD.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/Desktop.jpg" : {
+      "ft" : 16384,
+      "iS" : 1887936,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Desktop.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/0header\/logo.png" : {
       "ft" : 32768,
       "iS" : 27466,
@@ -236,6 +262,32 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
+    },
+    "\/deploy\/Mobile.jpg" : {
+      "ft" : 16384,
+      "iS" : 653552,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Mobile.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/Tablet.jpg" : {
+      "ft" : 16384,
+      "iS" : 1475240,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Tablet.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/design\/Grid Design.sketch" : {
       "cB" : 0,
