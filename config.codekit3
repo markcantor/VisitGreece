@@ -21,6 +21,240 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/0header\/burger.jpg" : {
+      "ft" : 16384,
+      "iS" : 1289,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/0header\/burger.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/0header\/logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 5883,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/0header\/logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/0header\/search.jpg" : {
+      "ft" : 16384,
+      "iS" : 1612,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/0header\/search.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/1hero\/1hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 59198,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/1hero\/1hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/cities.jpg" : {
+      "ft" : 16384,
+      "iS" : 7454,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/cities.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/culture.jpg" : {
+      "ft" : 16384,
+      "iS" : 7383,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/culture.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/hotel.jpg" : {
+      "ft" : 16384,
+      "iS" : 7548,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/hotel.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/leisure.jpg" : {
+      "ft" : 16384,
+      "iS" : 7462,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/leisure.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/monument.jpg" : {
+      "ft" : 16384,
+      "iS" : 7932,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/monument.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/3explore\/museum.jpg" : {
+      "ft" : 16384,
+      "iS" : 7458,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/3explore\/museum.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/4famous\/athens-2 copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 25884,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4famous\/athens-2 copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/4famous\/heidi-kaden-kYxgm42SQso-unsplash-2-2 Copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 25132,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4famous\/heidi-kaden-kYxgm42SQso-unsplash-2-2 Copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/4famous\/milos-2 copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 27432,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4famous\/milos-2 copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/4famous\/mykonos-2 copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 19397,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/4famous\/mykonos-2 copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/6related\/bEACH-2 Copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 21930,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/6related\/bEACH-2 Copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/6related\/hotels-2 copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 35607,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/6related\/hotels-2 copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/6related\/islands-2 copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 22382,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/6related\/islands-2 copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/6related\/valdemaras-d-U2bIFFmUK_M-unsplash-2 Copy 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 17621,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/6related\/valdemaras-d-U2bIFFmUK_M-unsplash-2 Copy 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/header\/logo.jpg" : {
       "ft" : 16384,
       "iS" : 4910,
@@ -240,6 +474,54 @@
       "oAP" : "\/design\/Homework.sketch",
       "oF" : 0
     },
+    "\/dev\/content\/1hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/1hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/2looking.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/2looking.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/3explore.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/3explore.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/4famous.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/4famous.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/5before.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/5before.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/6related.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/6related.html",
+      "oF" : 0
+    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -288,12 +570,20 @@
       "oAP" : "\/dev\/content\/zebra.html",
       "oF" : 0
     },
-    "\/dev\/global\/footer.kit" : {
+    "\/dev\/global\/0header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/global\/0header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/7footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/7footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -304,20 +594,20 @@
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
-    "\/dev\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/search.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/search.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -605,7 +895,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638646927.49306905,
-    "displayValue" : "Mark-WEB2-HW",
+    "displayValue" : "VisitGreece",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-red",
     "iconImageWasSetByUser" : 1
