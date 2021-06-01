@@ -353,14 +353,6 @@
       "oAP" : "\/dev\/content\/6related.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
-    },
     "\/dev\/global\/0header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -560,6 +552,48 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/Sections\/_before.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/Sections\/_before.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/Sections\/_explore.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/Sections\/_explore.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/Sections\/_famous.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/Sections\/_famous.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/Sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -574,7 +608,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/Sections\/_hero2.scss" : {
+    "\/dev\/scss\/Sections\/_looking.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -582,13 +616,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/Sections\/_hero2.css",
+      "oAP" : "\/dev\/scss\/Sections\/_looking.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/Sections\/_new.scss" : {
+    "\/dev\/scss\/Sections\/_related.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -596,21 +630,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/Sections\/_new.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/Sections\/_planning.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/Sections\/_planning.css",
+      "oAP" : "\/dev\/scss\/Sections\/_related.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -625,20 +645,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/Sections\/_search.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/Sections\/_zebra.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/Sections\/_zebra.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

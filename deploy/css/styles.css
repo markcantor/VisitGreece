@@ -366,6 +366,20 @@ body ul li {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -376,9 +390,75 @@ button {
 /* =============
     Forms
 ============= */
+[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea {
+  box-shadow: none;
+}
+
+[type=text]:focus, [type=password]:focus, [type=date]:focus, [type=datetime]:focus, [type=datetime-local]:focus, [type=month]:focus, [type=week]:focus, [type=email]:focus, [type=number]:focus, [type=search]:focus, [type=tel]:focus, [type=time]:focus, [type=url]:focus, [type=color]:focus, textarea:focus {
+  box-shadow: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+  -webkit-appearance: none;
+}
+
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  #nav-container ul {
+    display: flex;
+  }
+}
+#nav-container ul li {
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  #nav-container ul li {
+    align-items: center;
+    border-right: 2px solid #222222;
+    display: flex;
+    margin-bottom: 0px;
+  }
+}
+#nav-container ul li a:link,
+#nav-container ul li a:visited {
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+@media (min-width: 1024px) {
+  #nav-container ul li a:link,
+#nav-container ul li a:visited {
+    color: #000;
+  }
+}
+#nav-container ul li a:link:hover, #nav-container ul li a:link:active,
+#nav-container ul li a:visited:hover,
+#nav-container ul li a:visited:active {
+  color: #F8C832;
+}
+#nav-container ul li:first-child {
+  border: none;
+  display: none;
+}
+@media (min-width: 768px) {
+  #nav-container ul li:first-child {
+    display: list-item;
+  }
+}
+#nav-container ul li:last-child {
+  border: none;
+}
+
 /* =============
     Header
 ============= */
@@ -452,7 +532,7 @@ header > div #nav-container {
     Footer
 ============= */
 footer {
-  background-color: #F8C832;
+  background-color: #1B98E0;
   display: grid;
   grid-template-areas: ". footer .";
   grid-template-columns: 10px auto 10px;
@@ -489,175 +569,23 @@ footer > div ul li a:visited:active {
 }
 
 /* =============
-    Search
+    search
 ============= */
-#search {
-  display: grid;
-  grid-template-rows: 16px;
-  grid-template-areas: "";
-  margin-left: 16px;
-}
-#search > div {
-  grid-area: search;
-}
-@media (min-width: 1200px) {
-  #search > div {
-    display: grid;
-    grid-template-columns: auto 1200px auto;
-    grid-template-areas: ". search-content .";
-  }
-}
-@media (min-width: 1200px) and (min-width: 1200px) {
-  #search > div form {
-    grid-area: search-content;
-  }
-}
-
 /* =============
-    Hero
+    hero
 ============= */
-#hero img {
-  width: 100%;
-  margin-top: 16px;
-  margin: auto hero auto;
-}
-@media (min-width: 768px) {
-  #hero section {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hero-content .";
-  }
-}
-@media (min-width: 768px) and (min-width: 768px) {
-  #hero section ul {
-    grid-area: hero-content;
-    display: grid;
-    grid-template-columns: 40% auto;
-  }
-}
-@media (min-width: 768px) and (min-width: 1024px) {
-  #hero section ul {
-    grid-template-columns: 50% auto;
-  }
-}
 /* =============
-    Planning
+    Before
 ============= */
-#planning {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". planning .";
-}
-@media (min-width: 1200px) {
-  #planning {
-    grid-template-columns: auto 1000px auto;
-  }
-}
-#planning > div {
-  grid-area: planning;
-}
-@media (min-width: 768px) {
-  #planning > div ul {
-    display: grid;
-    grid-template-columns: 50% auto;
-    gap: 16px;
-  }
-}
 /* =============
-    Hero2
+    explore
 ============= */
-#hero2 {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero2 .";
-}
-@media (min-width: 1200px) {
-  #hero2 {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-#hero2 img {
-  grid-area: hero2;
-  width: 100%;
-}
-
 /* =============
-    New
+    famous
 ============= */
-@media (min-width: 768px) {
-  #new {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". new .";
-  }
-}
-@media (min-width: 1024px) {
-  #new {
-    grid-template-columns: auto 1024px auto;
-  }
-}
-@media (min-width: 768px) {
-  #new > div {
-    grid-area: new;
-  }
-}
-@media (min-width: 768px) {
-  #new > div ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
-    gap: 16px;
-  }
-}
-@media (min-width: 1024px) {
-  #new > div ul {
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
-  }
-}
-#new > div ul li img {
-  width: 100%;
-}
-#new > div ul li section {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". new-content .";
-}
-#new > div ul li section > div {
-  grid-area: new-content;
-}
-@media (min-width: 768px) {
-  #new > div ul #n1 {
-    grid-area: n1;
-  }
-}
-@media (min-width: 768px) {
-  #new > div ul #n2 {
-    grid-area: n2;
-  }
-}
-@media (min-width: 768px) {
-  #new > div ul #n3 {
-    grid-area: n3;
-  }
-}
-@media (min-width: 768px) {
-  #new > div ul #n4 {
-    grid-area: n4;
-  }
-}
-@media (min-width: 768px) {
-  #new > div ul #n5 {
-    grid-area: n5;
-  }
-}
-
 /* =============
-    zebra
+    looking
 ============= */
-#zebra {
-  display: grid;
-  grid-template-columns: 233px auto;
-  grid-template-rows: 79px 16px auto;
-  padding: 16px auto;
-}
+/* =============
+    Related
+============= */
