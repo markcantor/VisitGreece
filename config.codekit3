@@ -47,6 +47,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/0header\/Berg.png" : {
+      "ft" : 32768,
+      "iS" : 307,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/0header\/Berg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/0header\/logo.png" : {
       "ft" : 32768,
       "iS" : 27466,
@@ -631,20 +644,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/Sections\/_related.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/Sections\/_search.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/Sections\/_search.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

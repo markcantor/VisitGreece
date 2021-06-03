@@ -363,6 +363,24 @@ body ul li {
   list-style: none;
 }
 
+footer {
+  color: #10002B;
+}
+
+button {
+  text-align: center;
+}
+
+explore {
+  grid-template-areas: auto;
+  grid-template-columns: 2;
+  grid-template-rows: 3;
+}
+
+button {
+  background-color: #10002B;
+}
+
 /* =============
     Typography
 ============= */
@@ -400,6 +418,10 @@ aside {
 li {
   text-align: left;
   margin-left: 100px;
+}
+
+button {
+  color: white;
 }
 
 /* =============
@@ -561,38 +583,7 @@ footer {
   padding: 45px 0 40px;
   text-align: center;
 }
-footer > div {
-  grid-area: footer;
-}
-footer > div h1 {
-  font-size: 1.25rem;
-  margin-bottom: 10px;
-}
-footer > div h1 span {
-  color: #fff;
-}
-footer > div ul {
-  display: flex;
-  justify-content: center;
-}
-footer > div ul li {
-  margin: 0 10px;
-}
-footer > div ul li a:link,
-footer > div ul li a:visited {
-  color: #000;
-  font-size: 1.875rem;
-  transition: 0.25s;
-}
-footer > div ul li a:link:hover, footer > div ul li a:link:active,
-footer > div ul li a:visited:hover,
-footer > div ul li a:visited:active {
-  color: #fff;
-}
 
-/* =============
-    search
-============= */
 /* =============
     hero
 ============= */
