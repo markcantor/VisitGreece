@@ -2,14 +2,16 @@
     Header
 ============= */
 
-header {
-    background-color: $white;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
+.header {
+    column-count: 3;
 
-    >div {
+}
+
+
+
+
+
+    div {
         display: grid;
         grid-template-areas: 
         "burger survival"
@@ -27,15 +29,7 @@ header {
             text-align: right;
 
            button {
-                background-color: $yellow;
-                border-radius: 23px;
-                color: $black;
-                display: inline-block;
-                font-size: rem-calc(18);
-                font-weight: 700;
-                padding: 10px 20px;
-                border: none;
-                transition: 0.25s;
+                
 
                 &:hover {
                     background-color: $black;
@@ -74,4 +68,3 @@ header {
             }
         }
     }
-}
