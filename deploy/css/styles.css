@@ -528,6 +528,7 @@ textarea {
     hero
 ============= */
 .hero {
+  text-align: center;
   width: 100%;
 }
 
