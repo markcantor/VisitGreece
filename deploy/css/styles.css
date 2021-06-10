@@ -510,7 +510,7 @@ textarea {
 ============= */
 .footer {
   text-align: center;
-  margin-top: 34px;
+  margin-top: 56px;
   height: 99px;
   background-color: #1b98e081;
   padding-top: 24px;
@@ -546,11 +546,15 @@ textarea {
 /* =============
     Before
 ============= */
-li {
+.before {
   text-align: left;
-  margin-left: 75px;
-  margin-right: 16px;
-  line-height: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  line-height: 50px;
+}
+
+.far fa-check-square {
+  font-size: 50px;
 }
 
 /* =============
@@ -560,13 +564,17 @@ li {
   column-count: 2;
   margin-top: 24px;
   margin-bottom: 52px;
-  margin-left: 16px;
-  margin-right: 16px;
+  padding-left: -80px;
 }
 
 .ninefour {
   padding-left: 47px;
   padding-right: 47px;
+  margin-left: 55px;
+}
+
+.columns .ninefour {
+  margin-right: 16px;
 }
 
 /* =============
@@ -602,16 +610,17 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 24px;
+  padding-top: 0px;
 }
 
 .bigbox {
   display: block;
   margin: auto;
   width: 239px;
-  height: 420px;
+  height: 390px;
   background-color: #E1F1F4;
   margin-top: 24px;
+  margin-bottom: 16px;
 }
 
 .rightbutt {
