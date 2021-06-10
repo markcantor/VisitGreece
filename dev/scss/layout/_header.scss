@@ -2,69 +2,24 @@
     Header
 ============= */
 
-.header {
-    column-count: 3;
+.logo {
+    
+    
+}
 
+.search {
+    float: right;
+    padding-right: 40px;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 2px;
+}
+.bars {
+    float: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 35px;
 }
 
 
-
-
-
-    div {
-        display: grid;
-        grid-template-areas: 
-        "burger survival"
-        "nav nav";
-        grid-template-columns: 20% auto;
-
-        @include lg {
-            grid-template-areas: "nav survival";
-            grid-template-columns: 20% auto;
-        }
-
-        #button-container {
-            grid-area: survival;
-            padding: 10px;
-            text-align: right;
-
-           button {
-                
-
-                &:hover {
-                    background-color: $black;
-                    color: $white;
-                }
-            }
-
-            
-        }
-
-        #burger-container {
-            align-items: center;
-            display: flex;
-            grid-area: burger;
-            padding: 10px;
-
-            @include lg {
-                display: none !important;
-            }
-
-            i {
-                cursor: pointer;
-                font-size: rem-calc(30);
-            }
-        }
-
-        #nav-container {
-            background-color: $charcoal;
-            display: none;
-            grid-area: nav;
-            padding: 20px 10px 10px;
-
-            @include lg {
-                background-color: $white;
-                display: block !important;
-            }
-        }
-    }
+    

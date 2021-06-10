@@ -363,13 +363,10 @@ body ul li {
   list-style: none;
 }
 
-footer {
-  color: #10002B;
-}
-
-button {
-  text-align: center;
-  background-color: #10002B;
+.box {
+  background-color: #1b98e08f;
+  width: 100%;
+  height: 67px;
 }
 
 /* =============
@@ -379,7 +376,7 @@ h1 {
   font-family: crimson text, Serif;
   font-size: 51px;
   text-align: center;
-  background-color: #48BFE3;
+  inline-size: 100%;
 }
 
 h2 {
@@ -408,14 +405,11 @@ aside {
   margin-right: 100px;
 }
 
-button {
-  color: white;
-}
-
 /* =============
     Buttons
 ============= */
 button {
+  color: white;
   cursor: pointer;
   text-align: center;
   background-color: #10002B;
@@ -496,68 +490,38 @@ textarea {
 /* =============
     Header
 ============= */
-.header {
-  column-count: 3;
+.search {
+  float: right;
+  padding-right: 40px;
+  padding-top: 40px;
+  font-size: 35px;
+  font-weight: 2px;
 }
 
-div {
-  display: grid;
-  grid-template-areas: "burger survival" "nav nav";
-  grid-template-columns: 20% auto;
-}
-@media (min-width: 1024px) {
-  div {
-    grid-template-areas: "nav survival";
-    grid-template-columns: 20% auto;
-  }
-}
-div #button-container {
-  grid-area: survival;
-  padding: 10px;
-  text-align: right;
-}
-div #button-container button:hover {
-  background-color: #000;
-  color: #fff;
-}
-div #burger-container {
-  align-items: center;
-  display: flex;
-  grid-area: burger;
-  padding: 10px;
-}
-@media (min-width: 1024px) {
-  div #burger-container {
-    display: none !important;
-  }
-}
-div #burger-container i {
-  cursor: pointer;
-  font-size: 1.875rem;
-}
-div #nav-container {
-  background-color: #222222;
-  display: none;
-  grid-area: nav;
-  padding: 20px 10px 10px;
-}
-@media (min-width: 1024px) {
-  div #nav-container {
-    background-color: #fff;
-    display: block !important;
-  }
+.bars {
+  float: left;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 35px;
 }
 
 /* =============
     Footer
 ============= */
-footer {
-  background-color: #1B98E0;
-  display: grid;
-  grid-template-areas: ". footer .";
-  grid-template-columns: 10px auto 10px;
-  padding: 45px 0 40px;
+.footer {
   text-align: center;
+  margin-top: 34px;
+  height: 99px;
+  background-color: #1b98e081;
+  padding-top: 24px;
+  font-size: 30px;
+}
+
+.foot {
+  background-color: #1b98e081;
+  text-align: center;
+  padding-bottom: 24px;
+  font-kerning: 100px;
 }
 
 /* =============
@@ -567,12 +531,25 @@ footer {
   width: 100%;
 }
 
+.bigpadding {
+  column-count: 3;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.padding {
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
 /* =============
     Before
 ============= */
 li {
   text-align: left;
-  margin-left: 100px;
+  margin-left: 75px;
+  margin-right: 16px;
   line-height: 30px;
 }
 
@@ -583,7 +560,13 @@ li {
   column-count: 2;
   margin-top: 24px;
   margin-bottom: 52px;
-  position: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.ninefour {
+  padding-left: 47px;
+  padding-right: 47px;
 }
 
 /* =============
@@ -608,6 +591,29 @@ li {
 /* =============
     looking
 ============= */
+.center {
+  text-align-last: center;
+}
+
 /* =============
     Related
 ============= */
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+}
+
+.bigbox {
+  display: block;
+  margin: auto;
+  width: 239px;
+  height: 420px;
+  background-color: #E1F1F4;
+  margin-top: 24px;
+}
+
+.rightbutt {
+  float: right;
+}

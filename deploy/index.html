@@ -13,14 +13,20 @@
 
     <link rel="stylesheet" href="css/styles.css">
     <title>Homework Demo</title>
-</head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../lib/w3.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <body class="w3-container">
+    
+
 
 <body>
 
     <section class="header">
-        <i class="fas fa-bars"></i>
-        <img src=img/0header/logo.png alt="visitgreece">
-        <i class="fas fa-search"></i>   
+        <span class="bars"><i class="fas fa-bars"></i></span>
+        <span class="logo"><img src=img/0header/logo.png alt="visitgreece"></span>
+        <span class="search"> <i class="fas fa-search"></i> </span>
     </section>
          
     
@@ -31,21 +37,28 @@
         
     
             <div id="hero">
-            <button id="button">
+            <div style="text-align: center;">
+            <button class="bigpadding">
                     Covid Notice
             </button>
             </div>
+            </div>
             <img class="hero" src="img/1hero/hero.png" alt="beach">
             <div>
-            <button>
+            <div style="text-align: center;">
+            <button class="padding">
                     Book a Flight
             </button>
             </div>
-            </section>
+            </div>
+            
+            
     <section id="looking">
-                <h1>
+                <div class="box">
+                    <h1>
                     Looking to Visit Greece?
-                </h1>
+                    </h1>
+                </div>
                 <h2>
                     Why Should You?
                 </h2>
@@ -58,6 +71,9 @@
                 <p>
                     The autumn and spring are the best time to visit Greece when neither the temperature nor the crowds are too overwhelming. However, those looking to party on the islands should consider a July or August vacation – the most popular time of year to visit and also the most fun. Some of the tourist attractions go on hiatus during the winter months, so traveling between November and March isn’t advised for culture seekers.
                 </p>
+                <div style="text-align: center;">
+                    <button class="center">Read More</button>
+                </div>
                 <h2>
                     Popular Attractions
                 </h2>
@@ -78,35 +94,39 @@
                         • Delphi
                     </li>
                 </ul>
-                <button>Learn More</button>
-                <aside id="callout">
-                   <div> “Santorini is the heaven of honeymooners” 
+                <div style="text-align: center;">
+                <button class="center">Learn More</button>
                 </div>
-                    <div>“As you climb you can imagine the legends that are interconnected with Mt. Olympus”
+                <aside id="callout">
+                   <div> 
+                       “Santorini is the heaven of honeymooners” 
+                </div>
+                    <div>
+                        “As you climb you can imagine the legends that are interconnected with Mt. Olympus”
                     </div>
                     </aside>
                 </section>
                 
     <section id="explore">
-                            <h1>
+                            <div class="box">
+                                <h1>
                                 Explore by Interest
                             </h1>
+                        </div>
                             <ul class="columns">
                                 <li id="hotels">
                                     <img src="img/3explore/hotel.png" alt="Greek Hotels">
-                                    <section>
-                                        <div>
-                                       <button>
+                                    
+                                       <button class="ninefour">
                                            Hotels
                                        </button>
-                                   </div>
-                                    </section>
+                                   
                                 </li>
                                 <li id="leisure">
                                     <img src="img/3explore/leisure.png" alt="Greece leisure">
                                     <section>
                                        <div>
-                                        <button>
+                                        <button class="ninefour">
                                             Leisure
                                         </button>
                                    </div>
@@ -116,7 +136,7 @@
                                     <img src="img/3explore/culture.png" alt="Greece culture">
                                     <section>
                                         <div>
-                                       <button>
+                                       <button class="ninefour">
                                            Culture
                                        </button>
                                    </div>
@@ -127,7 +147,7 @@
                             <img src="img/3explore/monument.png" alt="Greece monument">
                             <section>
                                 <div>
-                               <button>
+                               <button class="ninefour">
                                    Monuments
                                 </button>
                            </div>
@@ -136,7 +156,7 @@
                             <img src="img/3explore/cities.png" alt="greece city">
                              <section>
                                  <div>
-                                 <button>
+                                 <button class="ninefour">
                                      Cities
                                  </button>
                                  </div>
@@ -146,7 +166,7 @@
                                         <img src="img/3explore/museum.png" alt="Greece Museums">
                                         <section>
                                             <div>
-                                            <button>
+                                            <button class="ninefour">
                                                 Museums
                                             </button>
                                        </div>
@@ -156,10 +176,11 @@
                     </section>
     
                         <section id="famous">
-                               
+                               <div class="box">
                                     <h1>
                                     Touring Greece
                                 </h1>
+                            </div>
                                 <p>
                                     Tourism in Greece is a must! It is a beautiful country characterized by its mountainous landscapes, its incredible weather, its many islands, its long sandy beaches and more. Discover our travel guides!
                                 </p>
@@ -201,9 +222,11 @@
                           
                         
                         
-    <h1>
+    <div class="box">
+                                <h1>
                                 Before You Travel
-                            </h1>
+                                </h1>
+                            </div>
                                 <ul id="before">
                                     <li>
                                         <i class="far fa-check-square"></i>
@@ -228,15 +251,90 @@
                                 </ul>
                             
     <section id="related">
+                                    <div class="box">
+                                        <h1>
+                                            Related Articles
+                                        </h1>
+                                    </div>
+                                    <section class="bigbox">
+                                
+                                    <img class="centerimg" src="img/6related/1b.png" alt="beach">
                                     
+                                        <p>
+                                        Best Beaches on the Greek Islands:
+                                        Greece is famous all over the world for its fabulous sandy beaches with crystal and clear water. The country...
+                                    </p>
+                                    
+                                    <button style="float: right;">
+                                        Read More
+                                    </button>
+                                   
+                                </section>
+                                    <section class="bigbox">
+                                
+                                    <img class="centerimg" src="img/6related/2b.png" alt="mykonos">
+                                    
+                                    
+                                    <p>
+                                    Best hotels in Santorini 2021:
+                                    With summer season 2021 only a few months away, we compiled for your convenience and reading pleasure a list... 
+                                    </p>
+                                    
+                                    <button style="float: right;">
+                                        Read More
+                                    </button>
+                                </section>
+                                    <section class="bigbox">
+                                
+                                    <img class="centerimg" src="img/6related/3b.png" alt="beach">
+                                
+                                   
+                                    <p>
+                                        Paros or Naxos?:
+                                        You’ve heard everyone boasting about their unforgettable summer holidays in the sunny Greek Islands and you decided it is..
+                                    </p>
+                                   
+                                   
+                                    <button style="float: right;">
+                                        Read More
+                                    </button>
+                                </section>
+                                    <section class="bigbox">
+                                
+                                    <img class="centerimg" src="img/6related/4b.png" alt="beach">
+                                
+                                    
+                                    <p>
+                                        How to visit Greece on a budget:
+                                        Santorini is considered one of the most luxurious and expensive destinations of the Mediterranean. Those amazing boutique hotels with...
+                                    </p>
+                                
+                                
+                                    <button class="rightbutt">
+                                        Read More
+                                    </button>
+                                </section>
                                 </section>
                                 
                                           
-    <section id="footer">
+    <section class="footer">
+                                    
                                     <i class="fab fa-facebook-square"></i>
                                     <i class="fab fa-twitter"></i>
                                     <i class="fab fa-youtube"></i>
                                     <i class="fab fa-instagram-square"></i>
+                                    </section>
+                                    <section class="foot">
+                                    Contact Us
+                                    
+                                    Guides
+                                    
+                                    Travel Sitemap
+                                    
+                                    
+                                    Subscribe
+                                    
+                                    
                                     </section>
                                     
                                     
